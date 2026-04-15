@@ -39,14 +39,14 @@
 
 \cvheading{Alex Towell} % Large heading - your name
 
-\cvsubheading{PhD Student | AI Researcher | Mathematician}
+\cvsubheading{PhD Student | AI/ML Research | Mathematics}
 
 %-------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 %	ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{About Me}{PhD student in Computer Science at Southern Illinois University, specializing in AI safety, alignment, and cybersecurity. Leading ransomware prevention research achieving $10^{-8}$ false-negative rates. Architecting production systems for Illinois DOT while maintaining 100+ open-source projects in AI, cryptography, and mathematics. Seeking to contribute to cutting-edge AI research with real-world impact.}
+\aboutme{About Me}{PhD student in Computer Science focused on reliable and secure ML systems. My current work studies adversarial robustness in ransomware prevention; in controlled experiments our approach achieved a $10^{-8}$ false-negative rate. I prefer careful, incremental engineering, clear writing, and reproducible results. I build data and backend systems, contribute to open-source tools, and am especially interested in AI safety, evaluation, and interpretability.}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -57,7 +57,7 @@
 \CVItem{2024 - Present, Southern Illinois University}{PhD in Computer Science}
 {
     \begin{itemize}
-        \item Research Focus: Cybersecurity, AI Safety, Alignment, Machine Learning
+        \item Research Focus: AI Safety, Alignment, Mechanistic Interpretability, Adversarial Robustness
         \item Advisor: Dr. Hiroshi Fujinoki
         \item Expected Graduation: 2028
     \end{itemize}
@@ -111,11 +111,10 @@
 
 \CVSection{Technical Skills}
 
-\CVItem{Languages}{Python, R, C/C++, Java, Scala, JavaScript, TypeScript, Bash}\\
-\CVItem{AI/ML}{PyTorch, HuggingFace, CUDA, LangChain, Fine-Tuning, Transformers}\\
+\CVItem{Languages}{Python (primary), R, C/C++, Java, TypeScript, Bash, LaTeX}\\
+\CVItem{AI/ML}{PyTorch, HuggingFace Transformers, CUDA, LLM fine-tuning, NumPy, Pandas}\\
 \CVItem{Systems}{Linux, Docker, Git, PostgreSQL, Elasticsearch, Redis, REST APIs}\\
-\CVItem{Cryptography}{Encrypted Search, Secure Indexes, Oblivious Computing, Bloom Filters}\\
-\CVItem{Frameworks}{React, Node.js, FastAPI, Flask, Jupyter, LaTeX}
+\CVItem{Open Source}{Contributor/maintainer; code review; documentation; small tooling}\\
 
 \clearpage % Start a new page
 
@@ -144,11 +143,11 @@
 
 \CVSection{Selected Research \& Projects}
 
-\CVItem{AlgoTree}{Developed a Python package offering utilities for tree-like data structures, including FlatForest and TreeNode representations. Features a command-line tool \texttt{jt} for creating, manipulating, querying, and visualizing trees, akin to \texttt{jq} but tailored for hierarchical data.}\\
-\CVItem{Elasticsearch-LM}{Fine-tuning smaller Large Language Models (LLMs) for translating natural language queries into structured Elasticsearch Query DSL. Emphasizes synthetic data generation to enhance model training, aiming to democratize sophisticated API interactions.}\\
-\CVItem{Reverse-Process Synthetic Data Generation}{Developed novel algorithms generating synthetic data via reverse-process methods to facilitate LLM-based mathematical reasoning and theorem proving. Focus on creating high-quality training data for complex reasoning tasks.}\\
-\CVItem{Oblivious Computation}{Researching cryptographic methods enabling secure computation trade-offs between space and security without full homomorphism. Applications in privacy-preserving cloud computing.}\\
-\CVItem{IDOT D8 Infrastructure System}{Architected and implemented comprehensive full-stack application for traffic monitoring and infrastructure management. Large-scale production system handling real-time data processing for Illinois transportation.}
+\CVItem{AlgoTree}{Python utilities for tree-like data (FlatForest/TreeNode) with a CLI (\texttt{jt}) to query and manipulate hierarchical data; used for inspecting nested structures.}\\
+\CVItem{Elasticsearch-LM}{Prototype fine-tuning to translate natural language into Elasticsearch Query DSL using transformers and synthetic data; evaluates translation accuracy and failure modes.}\\
+\CVItem{Reverse-Process Synthetic Data}{Exploratory algorithms to generate math-reasoning training data; emphasis on data quality, clear assumptions, and reproducibility.}\\
+\CVItem{Oblivious Computation}{Explored space–security trade-offs for privacy-preserving computation; built small prototypes for workload partitioning.}\\
+\CVItem{IDOT D8 Infrastructure System}{Lead developer for a traffic-monitoring system; proposed and planning multimodal models to assess incidents and camera quality. Designed for reliability, auditability, and straightforward operations.}
 
 \clearpage % Start a new page
 
@@ -164,10 +163,10 @@
 
 \CVItem{2024--Present, Research Assistant, SIU}{
     \begin{itemize}
-        \item Research in cybersecurity under Dr. Hiroshi Fujinoki, focusing on ransomware detection and prevention using probabilistic data structures and backup strategies
-        \item Lead developer for Illinois Department of Transportation District 8 (IDOT D8) full-stack application
-        \item Developed large-scale codebase for traffic data processing and infrastructure management systems
-        \item Co-authored paper on achieving $10^{-8}$ false-negative miss-detection rates in ransomware prevention (ICCI 2025)
+        \item Cybersecurity research with Dr. Hiroshi Fujinoki on ransomware detection using probabilistic data structures and careful evaluation
+        \item Built prototypes for telemetry analysis and automated response with LLMs; documented limits and failure cases
+        \item Lead developer for Illinois Department of Transportation District 8 (IDOT D8) application with planned multimodal AI components
+        \item Co-authored study reporting $10^{-8}$ false-negative miss-detection under controlled conditions (ICCI 2025)
     \end{itemize}
 }
 
